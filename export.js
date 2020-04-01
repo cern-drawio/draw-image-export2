@@ -169,6 +169,7 @@ app.get('/', handleRequest);
 
 async function handleRequest(req, res) 
 {
+  console.log(req)
   try
   {
 	  //Merge all parameters into body such that get and post works the same	
